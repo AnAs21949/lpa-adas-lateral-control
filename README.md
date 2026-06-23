@@ -96,17 +96,7 @@ au-delà de ±0.5, donc ces sorties ne sont pas exercées en run nominal. Distin
 | Intégration MIL / SIL | `model/lpa1_SIL_harness.slx` (back-to-back) |
 | KPI / analyse de réponse | §1, réponse boucle fermée |
 
----
 
-## 5. Limites assumées (lecture honnête)
-
-- **Code C embarqué (ERT) non inclus dans ce repo.** La génération Embedded Coder a été faite
-  hors ligne ; les fichiers `lpa1.c` / `lpa1.h` seront ajoutés sous `code/`. Tant qu'ils n'y sont
-  pas, ce repo ne prétend **pas** démontrer la génération de code visible.
-- Pas de CarMaker, CANoe/CANalyzer, ni HIL hardware ici — environnement de simulation Simulink
-  pur. La méthode (spec → modèle → SDV → couverture → SIL) est transposable, l'outillage
-  industriel ne l'est pas.
-- MISRA / Polyspace non audités sur ce code.
 
 ---
 
