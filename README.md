@@ -86,20 +86,6 @@ au-delà de ±0.5, donc ces sorties ne sont pas exercées en run nominal. Distin
 
 ---
 
-## 4. Correspondance avec les exigences du poste (ADAS Technical Functional Designer)
-
-| Ligne JD | Artefact dans ce repo |
-|---|---|
-| Spécifications fonctionnelles ADAS (ex. LPA) | REQ-LPA-05, §2 |
-| Modèles fonctionnels MATLAB/Simulink à partir de spec | `model/lpa1.slx` |
-| Design Verifier + MCDC pour valider la couverture | `verification/sldv/`, `verification/coverage/` |
-| Intégration MIL / SIL | `model/lpa1_SIL_harness.slx` (back-to-back) |
-| KPI / analyse de réponse | §1, réponse boucle fermée |
-
-
-
----
-
 ## Structure
 
 ```
