@@ -1,0 +1,15 @@
+# MATLAB / Simulink
+slprj/
+*.slxc
+*.autosave
+*.asv
+*.m~
+*.mex*
+codegen/
+*_ert_rtw/
+*_grt_rtw/
+sccprj/
+# Generated cache / build
+*.bak
+*.tmp
+.DS_Store
